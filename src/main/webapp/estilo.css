@@ -1,0 +1,574 @@
+@charset "ISO-8859-1";
+body{
+     font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/*html, body{
+	height: 100%;
+}*/
+.full-height{
+	height: 100%;
+}
+.border-red{
+	border: 1px solid red;
+}
+
+.no-margin{
+	margin: 0;
+}
+.no-padding{
+	padding: 0 !important;
+}
+
+.viewport{
+	height: 100vh;
+	width: 100%;
+}
+
+.navegacao{
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom right, #434343, #000000); 
+}
+.navbar-width{
+	width: 100%;
+}
+
+.img-container{
+	margin-top:2vh;
+	width: 100%;
+	height: fit-content;
+}
+.flow{
+	flex-flow: column;
+}
+
+.imagem-central{
+	
+	width: 70%;
+	height: 40vh;
+	background-image: url('Imagens/WasabiSushi/WasabiSushiCapa.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+  margin-bottom: 2vh;
+}
+
+.pesquisa-container{
+	width: 70%;
+	height: 30%;
+
+}
+
+.barra-de-pesquisa{
+	width: 80%;
+	height: 80%;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  /*height: 100%;*/
+
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+   -webkit-box-shadow: 2px 3px 13px 7px rgba(0,0,0,0.6); 
+  box-shadow: 2px 2px 5px 5px rgba(238, 237, 237, 0.6);
+
+}
+
+.promocao-container{
+  width: 100%;
+  display: grid;
+  align-content: center;	
+
+}
+
+.card-components{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+.entradas-container{
+	 width: 100%;
+  display: grid;
+  align-content: center;	
+}
+.temaki-container{
+	width: 100%;
+	display: grid;
+  align-content: center;	
+}
+.wasabi-container{
+	width: 100%;
+	display: grid;
+  align-content: center;	
+}
+.grid-item-dsc {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  text-align: left;
+  margin: 2%;
+
+}
+.grid-promocao-img {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Promoção/img01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.btn:hover{
+    color:#fff;
+}
+
+.input-text:focus{
+       
+  
+    box-shadow: 0px 0px 0px;
+    border-color:#d3d3d3;
+    outline: 0px;
+}
+
+.form-control {
+    border: 1px solid #d3d3d3;
+}
+.margin{
+	margin: 2%;
+}
+.padding{
+	padding: 2%;
+}
+
+.border-gray-light{
+	border: 1px solid #d3d3d3;
+}
+.border-right{
+	border-right: 1px solid #d3d3d3;
+}
+.color-white{
+	color: white;
+}
+
+.grid-promocao-img1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Promoção/img02.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+.grid-promocao-img2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Promoção/imagem03.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+.grid-promocao-img3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Promoção/imagem04.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+.grid-promocao-img4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Promoção/imagem05.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-temaki1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Temaki/temaki01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-temaki2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Temaki/temaki02.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-temaki3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Temaki/temaki03.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-temaki4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Temaki/temaki04.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-temaki5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Temaki/temaki05.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-entradas1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+ /* background-image: url('Imagens/Entradas/Entrada01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;*/
+
+}
+
+.grid-item-entradas2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Entradas/Entrada02.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-entradas3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Entradas/Entrada03.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-entradas4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Entradas/Entrada04.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.grid-item-entradas5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d3d3d3;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('Imagens/Entradas/Entrada05.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+
+}
+
+.titulo{
+	display: grid;
+	grid-template-columns: 70%;
+	justify-content: center;
+	vertical-align: center;
+	margin-top: 1%;
+}
+
+.fit-height{
+	height: fit-content;
+}
+
+.img-modal{
+	display: flex;
+	width: 100%;
+	height: 35vh;
+}
+
+.img1{
+	background-image: url('Imagens/Promoção/img01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-geral{
+	width: 100%;
+  height: 100%;
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.formulario-compra{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	padding: 2%;
+}
+
+.border-none{
+border:none !important;
+
+}
+
+.background-none{
+	background:  none !important;
+}
+
+
+        
+/*Modal DIREITA*/
+	.modal.right.fade .modal-dialog {
+		right: -320px;
+		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+		        transition: opacity 0.3s linear, right 0.3s ease-out;
+	}
+	
+	.modal.right.fade.in .modal-dialog {
+		right: 0;
+	}
+
+/* ----- ESTILO DA MODAL ----- */
+	.modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+	.modal-header {
+		border-bottom-color: #EEEEEE;
+		background-color: #FAFAFA;
+	}
+
+	.sacola{
+		width: 100%;
+		height: fit-content;
+		display: flex;
+		justify-content: start;
+		align-items: stretch;
+		flex-flow: column;
+	}
+
+	.produto{
+		border-top: 1px solid #d3d3d3;
+	}
+CLASSES PARA ADICIONAR
+.form-container-login1{
+	display: flex;
+	width: 100%;
+	height: 65%;
+}
+.form-container-login2{
+	display: flex;
+	width: 100%;
+	height: 35%;
+}
+
+
+
+.viewport-login{
+	height: 100vh;
+	background-image: url('Imagens/Login/LoginBackground/LoginBackground2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container-login{
+	width:30%;
+	height: 60%;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.56);
+    color: #fff;
+
+}
+
+.logo-login{
+	width: 100%;
+	height: 35%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo-login-img{
+	background-image: url('Imagens/Login/LoginLogo/LoginLogo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 40%;
+	height: 80%;
+	border-radius: 50%;
+}
+
+.form-login{
+	width: 100%;
+	height: 70%;
+}
+
+.full-width{
+	width: 100%;
+}
+
+.margin{
+margin: 5%;
+}
+
+.margin-bottom{
+	margin-bottom: 2%;
+}
+
+.img-background-properties{
+	width:100%;
+	height:100%;
+}
+
+
+.pedido-container{
+	height: 80%;
+	width: fit-content;
+	display: flex;
+}
+
+.formulario-pedido{
+	height: 80%;
+	display: flex;
+}
+
+.botoes{
+	height: 20%;
+	display: flex;
+	
+}
+
+.size{
+	height: 100%;
+	width: 100%;
+}
+
+.fit-size{
+	height: fit-content;
+	width: fit-content;
+}
+
+.background-white{
+	background-color:white;
+}
+
+.grow { 
+transition: all .4s ease-in-out; 
+
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+
+}
+
